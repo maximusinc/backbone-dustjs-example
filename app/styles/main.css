@@ -4,6 +4,22 @@
 html {
   font-size: 12px;
 }
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 2em;
+  font-weight: bold;  
+  border: 2px solid #EEEEEE;
+}
+
+body ul {
+  list-style: none;
+}
+
+h3,ul {
+  margin: 0;
+}
+
 .dont-render-dawg {
   position: absolute;
   height: 0;
@@ -34,10 +50,6 @@ html {
 .main-nav a:focus {
   background: #ccc;
   color: #000;
-}
-.main-nav a:hover svg,
-.main-nav a:focus svg {
-  fill: #008000;
 }
 .main-nav a:hover span,
 .main-nav a:focus span {

@@ -1,5 +1,29 @@
 {
 	"simple": {
-		"name": "simple"
-	}
+		"title": "Famous People", 
+		"names" : [{ "name": "Larry" },{ "name": "Curly" },{ "name": "Moe" }]
+	},
+	"logic":  {
+   		"friends": [
+	      	{ "name": "Moe", "age": 37 },
+	      	{ "name": "Larry", "age": 39 },
+	      	{ "name": "Curly", "age": 35 }
+    	]
+   	},
+   	"section": {
+   		"name": "root",
+   		"anotherName": "root2",
+   		"A":{
+      		"name":"Albert",
+      		"B":{
+         		"name":"Bob"
+      		}
+   		}
+	},
+   	"helpers": {
+   		"selkey" : "foo",
+   		"courses": [ "EUR", "RUB", "GBP", "NOK" ],
+   		"curCourse": "GBP",
+   		"age": 18
+   	}
 }

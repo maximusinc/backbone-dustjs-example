@@ -6,9 +6,10 @@ define(['backbone','view','text!data.json'], function(Backbone,SimpleView,jsonDa
   	},
   	routes: {
   		"": 'simple',
-    	"simple": "simple",
-    	"search/:query": "search",
-    	"search/:query/p:page": "search"
+      "simple": "simple",
+      "logic": "logic",
+      "section": "section",
+    	"helpers": "helpers"    	
   	},  	
   	renderTml: function (route) {
   		var data = this.jsonData[route];

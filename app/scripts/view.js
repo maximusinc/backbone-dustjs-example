@@ -1,4 +1,4 @@
-define(['jquery','backbone','dust'], function($,Backbone,dust){
+define(['jquery','backbone','dust','dust_helpers'], function($,Backbone,dust){
   var SimpleView = Backbone.View.extend({  	
     render: function (data) {
     	var self = this;

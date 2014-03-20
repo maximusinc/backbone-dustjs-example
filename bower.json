@@ -8,7 +8,8 @@
     "requirejs": "~2.1.5",
     "requirejs-text": "~2.0.10",
     "modernizr": "~2.6.2",
-    "dustjs-linkedin": "~2.3.4"
+    "dustjs-linkedin": "~2.3.4",
+    "dustjs-linkedin-helpers": "~1.2.0"
   },
   "devDependencies": {}
 }
