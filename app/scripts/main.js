@@ -21,15 +21,15 @@ require.config({
         jquery: '../bower_components/jquery/jquery',
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/underscore/underscore',
-        dust: '../bower_components/dustjs-linkedin/dist/dust-full'
+        dust: '../bower_components/dustjs-linkedin/dist/dust-full',
+        text: '../bower_components/requirejs-text/text'
     }
 });
 
 require([
     'backbone',
-    'views/simple'
-], function (Backbone,SimpleView) {
-    var simple = new SimpleView();
-    $('body').append( simple.render().el );
+    'router'    
+], function (Backbone,MainRouter) {
+    new MainRouter();    
     Backbone.history.start();
 });
