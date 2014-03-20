@@ -1,0 +1,2 @@
+Simple Backbone App with <a href="https://github.com/linkedin/dustjs/">dust-linkedin</a> template engine
+Templates create according dustjs <a href="https://github.com/linkedin/dustjs/wiki/Dust-Tutorial">wiki documentation</a>
